@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px; 
+}
+
+.navbar-esquerda,
+.navbar-direita {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* espaço entre os botões e itens internos de cada lado */
+}
